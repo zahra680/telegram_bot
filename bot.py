@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 print("🎉 محیط VS Code آماده است!")
 
 # 🔑 توکن شما - اینجا قرار بدید
-BOT_TOKEN = "7264777877:AAFpFjJ9IgtkFX3kSVJh-ZSTL4T3PYbotrw"
+BOT_TOKEN = "***********************************************"
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """دستور /start"""
@@ -60,4 +60,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
